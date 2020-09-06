@@ -54,7 +54,12 @@ $ cat /proc/cpuinfo | grep 'flags' | head -n 1
 ### Calcular rendimiento pico teorico
 
 ~~~
-  rendimiento pico en GFlops = velocidad de CPU en GHz * numero de cores * numero de hilos por core * SIMD registro * instrucciones por ciclo
+  rendimiento pico = 
+	velocidad de CPU en GHz  * 
+	numero de cores          *
+	numero de hilos por core *
+	SIMD registro            *
+	instrucciones por ciclo
 ~~~
 
 - buscar en google: Intel export spec
