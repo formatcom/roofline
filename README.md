@@ -37,6 +37,7 @@ $ cat /proc/cpuinfo | grep 'flags' | head -n 1
 
 ### Principales a considerar a la fecha 2020
 
+~~~
 - mmx
 
 - sse
@@ -50,6 +51,7 @@ $ cat /proc/cpuinfo | grep 'flags' | head -n 1
 - avx512
 
 - fma
+~~~
 
 ### Calcular rendimiento pico teorico
 
