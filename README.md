@@ -72,7 +72,7 @@ $ cat /proc/cpuinfo | grep 'flags' | head -n 1
 - Velocidad de reloj: 2.70GHz
 - Cores: 2
 - Hilos por core: 2
-- Soporta AVX2 por lo tanto 256/8 -> 32 bytes y si buscamos presicion doble 32 bytes / 8 bytes = 4 bytes
+- Soporta AVX2 por lo tanto 256/8 -> 32 bytes y si estamos trabajando con datos del tipo double 32 bytes / 8 bytes = 4 bytes
 - Soporta FMA que significa que podemos sumar y multiplicar en el mismo ciclo de reloj entonces hacemos 2 instrucciones por ciclo
 
 ~~~
